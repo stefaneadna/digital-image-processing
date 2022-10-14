@@ -19,6 +19,6 @@ De acordo com os resultados dos experimentos realizados, o filtro de média ajud
 
 Outro filtro existente é o filtro da mediana. Ele também é utilizado para suavizar as imagens, eliminando os ruídos do tipo sal e pimenta. Nesse filtro o pixel central da máscara é substituído pela mediana dos seus vizinhos. O filtro de Mediana é um dos filtros de suavização que melhor preserva as bordas em uma imagem. Abaixo exibe o resultado das imagens que foram suavizadas utilizando o filtro de mediana e vários tamanhos de máscaras.
 
-<img src="resultados/c)media_filter.png">
+<img src="resultados/c)median_filter.png">
 
 Como fica claro nos experimentos. O filtro de mediana possui forte capacidade de suavização das imagens sem perder características importantes, como as bordas. À medida que o filtro aumenta, a suavização ocorre com mais eficiência. Além disso, também fica claro nos experimentos que o filtro de mediana possui melhor capacidade para suavizar imagens do que o filtro de média.  
