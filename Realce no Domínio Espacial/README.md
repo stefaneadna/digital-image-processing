@@ -22,3 +22,10 @@ Outro filtro existente é o filtro da mediana. Ele também é utilizado para sua
 <img src="resultados/c)median_filter.png">
 
 Como fica claro nos experimentos. O filtro de mediana possui forte capacidade de suavização das imagens sem perder características importantes, como as bordas. À medida que o filtro aumenta, a suavização ocorre com mais eficiência. Além disso, também fica claro nos experimentos que o filtro de mediana possui melhor capacidade para suavizar imagens do que o filtro de média.  
+
+
+## Ferramentas
+
+- Linguagem: Python
+- Bibliotecas: OpenCv, Matplotlib, Numpy
+- Ambiente de desenvolvimento: Jupyter Notebook

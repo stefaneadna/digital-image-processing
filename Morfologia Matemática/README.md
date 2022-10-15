@@ -23,6 +23,23 @@ As imagens abaixo representam os resultados dos experimentos utilizando as opera
 
 ## Quadrado
 
-<img src="imagens/quadrado.png">
 <img src="imagens/quadrado2.png">
 <img src="imagens/quadrado3.png">
+<img src="imagens/quadrado.png">
+
+## Discussão
+
+Considerando que os objetos da imagem são os pixels brancos, pode-se notar alguns pontos nos resultados. A operação de erosão tende a erodir os objetos da imagens, com isso a quantidade de pixels escuros tende a aumentar fazendo com que consequentemente a quantidade de pixels brancos diminua. Em contrapartida, na operação de dilatação o processo ocorre de forma contrária, onde os objetos tendem a ter sua área aumentada, logo a quantidade de pixels claros aumentam, diminuindo desta forma a quantidade de pixels escuros. 
+
+Na operação de fechamento, a quantidade de pixels escuros é suavizada, sua região diminui mais de forma sútil, aumentando também a região de pixels claros. Na operação de abertura, ocorre o processo inverso, a região de pixels escuros tem um aumento sutil, diminuindo a região de pixels claros. 
+
+Com relação aos elementos estruturantes, pode-se citar alguns pontos. O elemento em formato de elipse realiza alteração na morfologia da imagem de forma mais circular, é por isso que ele é utilizado em operações com objetos circulares, pois ele tende a preservar ou realçar regiões circulares. Da mesma forma, o elemento estruturante quadrado tende a preservar ou realçar regiões retangulares e realiza a operação na morfologia da imagem de forma “quadrada”. 
+
+Os elementos de linha tendem a achatar verticalmente os objetos da imagem, podem ser eficientes quando aplicados a regiões mais retas e verticais. Além disso, pode-se notar também que quanto maior for o tamanho do elemento estruturante, maior é o efeito na alteração morfológica da imagem. 
+
+
+## Ferramentas
+
+- Linguagem: Python
+- Bibliotecas: OpenCv, Matplotlib, Numpy
+- Ambiente de desenvolvimento: Jupyter Notebook
