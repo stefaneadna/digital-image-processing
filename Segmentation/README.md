@@ -29,3 +29,6 @@ A Transformada Watershed pode ser aplicada em imagens em nível de cinza para a 
 - Linguagem: Python
 - Bibliotecas: OpenCv, Matplotlib, Numpy
 - Ambiente de desenvolvimento: Jupyter Notebook
+
+## Autora
+- Stefane Adna dos Santos - stefaneadna@alu.ufc.br
